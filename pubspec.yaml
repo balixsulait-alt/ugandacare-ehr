@@ -1,0 +1,23 @@
+name: ugandacare_ehr
+description: UgandaCare National Electronic Health Record System for Uganda
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
