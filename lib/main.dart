@@ -947,7 +947,7 @@ class _AlertBanner extends StatelessWidget {
             ...[
               '🔴 Cholera outbreak — Moroto District (12 cases this week)',
               '🟡 Malaria surge — Arua District (+34% vs last month)',
-              '🟠 Measles cluster — Kabale District (8 unvaccinated cases)',
+              '🟠 Measles cluster — Kabale District (9 unvaccinated cases)',
             ].map((alert) => Padding(
                   padding: const EdgeInsets.symmetric(vertical: 2),
                   child: Text(alert,
