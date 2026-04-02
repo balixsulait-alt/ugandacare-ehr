@@ -65,13 +65,15 @@ ThemeData get appTheme => ThemeData(
         contentPadding:
             const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       ),
-      cardTheme: CardTheme(
-        color: kCard,
-        elevation: 2,
-        shadowColor: kPrimary.withOpacity(0.08),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-        margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 0),
-      ),
+    cardTheme: CardThemeData(
+  color: kCard,
+  elevation: 2,
+  shadowColor: kPrimary.withValues(alpha: 0.08),
+  shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(14),
+  ),
+  margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 0),
+),
       fontFamily: 'Roboto',
     );
 
