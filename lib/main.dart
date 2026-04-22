@@ -8,7 +8,7 @@ void main() {
 
 // ──────────────────────────────────────────────────────
 // THEME & CONSTANTS
-// ─────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────
 const Color kPrimary = Color(0xFF006B3F); // Uganda green
 const Color kAccent = Color(0xFFFCDC04); // Uganda yellow
 const Color kRed = Color(0xFFD21034); // Uganda red
