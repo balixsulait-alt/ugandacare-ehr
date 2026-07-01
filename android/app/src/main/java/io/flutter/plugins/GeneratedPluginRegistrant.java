@@ -1,4 +1,4 @@
-//java main
+//java main android 
 package io.flutter.plugins;
 
 import androidx.annotation.Keep;
