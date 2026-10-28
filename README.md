@@ -1,3 +1,6 @@
+
+Aimed at standardised data collected from pipo 
+And integrated health structure in Uganda 
 # Electronic health record Uganda
 
 A new Flutter project created with FlutLab - https://flutlab.io
